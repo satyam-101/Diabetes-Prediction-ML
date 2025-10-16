@@ -83,5 +83,6 @@ evaluate_model("Decision Tree", y_test, dt_pred)
 evaluate_model("Random Forest", y_test, rf_pred)
 
 # Save the best model and scaler
-#joblib.dump(rf, "diabetes_model.pkl")
-#joblib.dump(scaler, "diabetes_scaler.pkl")
+joblib.dump(rf, "diabetes_model.pkl")
+joblib.dump(scaler, "diabetes_scaler.pkl")
+
